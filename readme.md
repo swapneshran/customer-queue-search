@@ -190,6 +190,7 @@ We would like to see the following practised within the implementation:
 ### Running the app
  -  Run the app using command `npm start`
  - Application will run on port 3000. 
+ - We can use stub server while developing in local. The target url can be changed inside setUpProxy.js based on the need
 
 ### State Management
   We used redux for the state management.

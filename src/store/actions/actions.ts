@@ -16,8 +16,7 @@ const fetchingCustomer = (): CustomerAction => {
     }
 }
 
-const filterCustomerData = (customers: Array<Customer>, customerName: string, dispatch: Dispatch) : CustomerAction => {
-    console.log(dispatch)
+const filterCustomerData = (customers: Array<Customer>, customerName: string) : CustomerAction => {
     return {
         type: USER_TYPING_COMPLETED_CUSTOMER_NAME,
         payload: {

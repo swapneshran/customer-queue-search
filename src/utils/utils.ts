@@ -1,7 +1,6 @@
 import Customer from "../models/Customer";
 
 const filteredCustomers = (customers: Array<Customer> = [], customerName: string) => {
-    console.log(customers)
     if(!customers){
         return []
     }
